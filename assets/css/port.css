@@ -1,0 +1,123 @@
+.body{
+    background-color: rgb(35, 34, 34);
+    color: rgb(255, 255, 255);
+    margin: 0;
+    font-family: "Tomorrow", serif;
+}
+.menu
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:40px 310px;
+ }
+ li
+ {
+    display: inline;
+    padding: 10px;
+ }
+li a
+{
+text-decoration: none;
+color: white;
+} 
+
+li a:hover{
+    color: rgb(7, 225, 156);
+}
+
+.container{
+    justify-content: space-between;
+    padding-left: 350px;
+    padding-right: 90px;
+    font-size: 25px;
+    align-items: center;
+    padding-top: 50px;
+
+
+}
+.bg{
+    background-color: rgb(5, 130, 226);
+    color: white;
+    border-radius: 800px; 
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    padding: 20px;
+    height: 280px;
+    width: 780px;
+    margin-right:210px ;
+    margin-top: 20px;
+    display: flex;
+}
+.next
+{
+    background-color:rgb(5, 130, 226);
+    border-radius: 800px;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    height: 280px;
+    width: 1300px;
+    margin-left: 250px;
+    margin-bottom: 100px;
+    display: flex;
+    padding: 20px;
+    padding-bottom: 20px;
+}
+.hov:hover{
+    color:  rgb(7, 225, 156);
+    cursor: pointer;
+}
+.nextcontent{
+    justify-content: space-between;
+    padding-left: 250px;
+    padding-right: 90px;
+    font-size: 25px;
+    align-items: center;
+   
+}
+.container{
+   width: 100%;
+   height:2px;
+   color: white;
+}
+.nc{
+    padding: 20px;
+    margin-right: 20px;
+    margin-left: 20%;
+    border-radius: 800px;
+    background-color: rgb(15, 178, 233);
+    color: black;
+    width: 280px;
+    height: 180px;
+    display: flex;
+    margin-top:7%;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0%;
+}
+
+
+.h:hover{
+    transition: 1s;
+    transform: scale(1.1);
+}
+
+
+
+.project-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+}
+
+.project-card {
+    background-color: rgba(6, 170, 220, 0.962);
+    padding: 2rem;
+    border-radius: 10px;
+    transition: transform 0.3s;
+    
+}
+
+.project-card:hover {
+    transform: translateY(-30px);
+}
